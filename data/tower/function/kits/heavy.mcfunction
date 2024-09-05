@@ -3,8 +3,9 @@
  # Heavy
 ##
 clear @s
-item replace entity @s armor.chest with netherite_chestplate[unbreakable={},enchantments={levels:{"minecraft:protection":2}}] 1
-item replace entity @s armor.feet with iron_boots[unbreakable={},enchantments={levels:{"minecraft:blast_protection":2,"minecraft:feather_falling":1,"minecraft:projectile_protection":1}}] 1
+item replace entity @s armor.chest with netherite_chestplate[unbreakable={},enchantments={levels:{"minecraft:protection":1}}] 1
+item replace entity @s armor.feet with netherite_boots[unbreakable={},enchantments={levels:{"minecraft:blast_protection":2,"minecraft:feather_falling":1,"minecraft:projectile_protection":1}}] 1
+
 item replace entity @s hotbar.0 with diamond_sword[unbreakable={}] 1
 item replace entity @s hotbar.1 with wooden_axe[unbreakable={},enchantments={levels:{"minecraft:efficiency":3}}] 1
 item replace entity @s weapon.offhand with shield[damage=300] 1

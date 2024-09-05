@@ -1,7 +1,8 @@
 ##
- # kit1.mcfunction
+ # Default.mcfunction
+ # Kit #1 
  # About as default as a kit will get
- #
+ # 
  # Created by .
 ##
 clear @s

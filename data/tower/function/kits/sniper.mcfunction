@@ -1,13 +1,12 @@
 ##
  # kit3.mcfunction
  # Sniper
- #
+ # Kit #3
 ##
 clear @s
-item replace entity @s armor.head with leather_helmet[unbreakable={}] 1
-item replace entity @s armor.chest with leather_chestplate[unbreakable={}] 1
-item replace entity @s armor.legs with leather_leggings[unbreakable={}] 1
-item replace entity @s armor.feet with leather_boots[unbreakable={}] 1
+item replace entity @s armor.chest with leather_chestplate[unbreakable={},enchantments={levels:{"minecraft:fire_protection":4}},dyed_color=41221] 1
+item replace entity @s armor.legs with leather_leggings[unbreakable={},dyed_color=9127187] 1
+item replace entity @s armor.feet with leather_boots[unbreakable={},enchantments={levels:{feather_falling:1,protection:1}},dyed_color=2707236] 1
 
 item replace entity @s hotbar.0 with stone_sword[unbreakable={}] 1
 item replace entity @s hotbar.1 with bow[unbreakable={},enchantments={levels:{"minecraft:power":2}}] 1

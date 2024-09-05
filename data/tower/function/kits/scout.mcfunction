@@ -1,6 +1,6 @@
 ##
- # kit2.mcfunction
  # Scout
+ # Kit #2
  # High damage output
  # Lower armor by a lot (receives almost same TTK as default, but less projectile and blast proctection)
  # Speed is cool
