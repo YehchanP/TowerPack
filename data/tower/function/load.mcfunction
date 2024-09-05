@@ -18,3 +18,7 @@ scoreboard players enable @a class
 scoreboard objectives add timeTop dummy "Score"
 scoreboard players reset @a timeTop
 scoreboard objectives setdisplay sidebar timeTop
+
+scoreboard objectives add useRocket minecraft.used:firework_rocket "useRocket"
+scoreboard players reset @a useRocket
+scoreboard players set #1rocket useRocket 1

@@ -6,3 +6,5 @@ execute as @a store result score @s[gamemode=survival] y run data get entity @s 
 
 #Kill floor
 kill @a[scores={y=100..150}]
+
+execute as @a run execute if score @s useRocket >= #1rocket useRocket run function tower:abilities/rocket_ride
